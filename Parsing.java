@@ -17,9 +17,10 @@ public class Parsing {
         document.getDocumentElement().normalize();
         Element root = document.getDocumentElement();
         System.out.println("Root element: " + root.getNodeName());
-        if (root.hasChildNodes()) {
+ 
             print.printNote(root.getChildNodes());
-        }
+            System.out.println("Labwork done");
+
     }
 }
     
